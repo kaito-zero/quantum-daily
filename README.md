@@ -26,6 +26,12 @@ pip install qiskit qiskit-aer numpy
 | Day 6 (11/21) | 단일 큐비트 게이트 정리 | [day06.py](week1/day06-gates-simulator/day06.py), [qubit_sim.py](week1/day06-gates-simulator/qubit_sim.py) | X, Y, Z, H, S, T와 NumPy 1큐비트 시뮬레이터 |
 | Day 7 (11/22) | 1주 복습 | [run_week1.py](week1/day07-review/run_week1.py) | 이번 주 코드를 한 번에 돌려 보고 백지에 설명해 보기 |
 
+## 2주 차: 여러 큐비트와 얽힘
+
+| 날짜 | 주제 | 코드 | 한 줄 요약 |
+| --- | --- | --- | --- |
+| Day 8 (11/23) | 텐서곱과 두 큐비트 | [day08.py](week2/day08-tensor-product/day08.py) | 두 큐비트는 진폭 4개. Qiskit은 오른쪽 글자가 0번 큐비트다 |
+
 각 폴더의 `notes.md`에 개념 정리, 질문과 답, 실행 결과가 있습니다.
 
 ## 이번 주 코드 한 번에 확인하기
