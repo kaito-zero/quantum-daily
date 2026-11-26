@@ -11,7 +11,7 @@
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate   /  macOS·Linux: source .venv/bin/activate
-pip install qiskit qiskit-aer numpy
+pip install qiskit qiskit-aer numpy matplotlib
 ```
 
 ## 1주 차: 큐비트 하나
@@ -32,6 +32,7 @@ pip install qiskit qiskit-aer numpy
 | --- | --- | --- | --- |
 | Day 8 (11/23) | 텐서곱과 두 큐비트 | [day08.py](week2/day08-tensor-product/day08.py) | 두 큐비트는 진폭 4개. Qiskit은 오른쪽 글자가 0번 큐비트다 |
 | Day 9 (11/24) | 2큐비트 게이트: CNOT, CZ, SWAP | [day09.py](week2/day09-two-qubit-gates/day09.py) | 제어가 1일 때만 타깃에 게이트. SWAP은 CNOT 세 개 |
+| Day 10 (11/25) | 곱 상태와 얽힘: 벨 상태 4개 | [day10.py](week2/day10-bell-states/day10.py) | H + CNOT이면 측정 결과가 00과 11로만 나온다 |
 
 각 폴더의 `notes.md`에 개념 정리, 질문과 답, 실행 결과가 있습니다.
 
