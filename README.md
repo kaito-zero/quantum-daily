@@ -31,6 +31,7 @@ pip install qiskit qiskit-aer numpy
 | 날짜 | 주제 | 코드 | 한 줄 요약 |
 | --- | --- | --- | --- |
 | Day 8 (11/23) | 텐서곱과 두 큐비트 | [day08.py](week2/day08-tensor-product/day08.py) | 두 큐비트는 진폭 4개. Qiskit은 오른쪽 글자가 0번 큐비트다 |
+| Day 9 (11/24) | 2큐비트 게이트: CNOT, CZ, SWAP | [day09.py](week2/day09-two-qubit-gates/day09.py) | 제어가 1일 때만 타깃에 게이트. SWAP은 CNOT 세 개 |
 
 각 폴더의 `notes.md`에 개념 정리, 질문과 답, 실행 결과가 있습니다.
 
